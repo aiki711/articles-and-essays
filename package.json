@@ -1,10 +1,11 @@
 {
-  "name": "zenn-content",
+  "name": "articles-and-essays",
   "version": "1.0.0",
-  "description": "",
+  "description": "技術記事（Zenn）と哲学的考察・エッセイ（note）のアウトプット統合リポジトリ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "preview": "zenn preview",
+    "new:article": "zenn new:article"
   },
   "keywords": [],
   "author": "",
